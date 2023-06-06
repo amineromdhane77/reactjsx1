@@ -1,6 +1,6 @@
 import React from "react";
 import './Photo.css';
-function Photo(){
+function ProfilePhoto(){
     return(
         <div>
             <h2>Card</h2>
@@ -9,12 +9,12 @@ function Photo(){
   <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/tester-or-developer-what-suits-you-the-most.jpg" alt="Avatar" style={{width:"100%"}}></img>
 
   <div class="container">
-    <h4><b>Amine Romdhane</b></h4> 
-    <p>développer site web</p> 
+     
+    <p><strong style={{textAlign:"center"}}>Full stack JS</strong></p> 
   </div>
   </div>
 
         </div>
     )
 }
-export default Photo;
+export default ProfilePhoto;
